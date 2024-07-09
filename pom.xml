@@ -5,7 +5,7 @@
 	<groupId>com.mt</groupId>
 	<artifactId>maven-web-application</artifactId>
 	<packaging>war</packaging>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	
 	<name>maven-web-application</name>
 
@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.250.56.236:9000/</sonar.host.url>
+		<sonar.host.url>http://52.66.197.0:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>Mur@li2024</sonar.password> 
+		<sonar.password>admin@123</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Maven-Web-Application-Release</name>
-	      <url>http://13.250.48.209:8081/repository/Maven-Web-Application-Release/</url>
+	      <url>http://13.201.166.244:8081/repository/Maven-Web-Application-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Maven-Web-Snapshot-Repository</name>
-	      <url>http://13.250.48.209:8081/repository/Maven-Web-Application-Snapshot/</url>
+	      <name>Maven-Web-Application-Snapshot</name>
+	      <url>http://13.201.166.244:8081/repository/Maven-Web-Application-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
